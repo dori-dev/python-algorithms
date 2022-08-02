@@ -1,6 +1,6 @@
 """
-limit([1, 2, 3, 4, 5], None, 3) = [1, 2, 3]
-complexity = O(n)
+limit([1, 2, 3, 4, 5], None, 3) => [1, 2, 3]
+complexity: O(n)
 """
 
 
