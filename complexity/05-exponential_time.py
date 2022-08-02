@@ -15,4 +15,4 @@ def subsets(iterable: Iterable) -> list:
 
 # O(2^n)
 print(list(subsets([1, 2, 3])))
-print(list(subsets(['a', 'b', 'c'])))
+print(list(subsets(["a", "b", "c"])))
