@@ -13,4 +13,5 @@ def get_max_number(numbers: int) -> int:
     return max_number
 
 
-print(get_max_number(numbers))
+if __name__ == "__main__":
+    print(get_max_number(numbers))

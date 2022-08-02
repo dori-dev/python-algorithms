@@ -13,6 +13,7 @@ def subsets(iterable: Iterable) -> list:
     return chain.from_iterable(subsets_)
 
 
-# O(2^n)
-print(list(subsets([1, 2, 3])))
-print(list(subsets(["a", "b", "c"])))
+if __name__ == "__main__":
+    # O(2^n)
+    print(list(subsets([1, 2, 3])))
+    print(list(subsets(["a", "b", "c"])))

@@ -21,4 +21,5 @@ def get_element_index(list_: list, element: Any) -> Any:
     return None
 
 
-print(get_element_index(numbers, 23))
+if __name__ == "__main__":
+    print(get_element_index(numbers, 23))

@@ -16,4 +16,5 @@ def is_first_number_even(numbers: List[int]) -> int:
     return False
 
 
-print(is_first_number_even(numbers))
+if __name__ == "__main__":
+    print(is_first_number_even(numbers))

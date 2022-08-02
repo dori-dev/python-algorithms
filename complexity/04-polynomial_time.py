@@ -18,5 +18,6 @@ def bubble_sort(collection):
     return collection
 
 
-# O(n^2)
-print(bubble_sort(numbers))
+if __name__ == "__main__":
+    # O(n^2)
+    print(bubble_sort(numbers))

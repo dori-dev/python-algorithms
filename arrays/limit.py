@@ -24,4 +24,5 @@ def limit(array: list, min_limit: int = None, max_limit: int = None) -> list:
     return result
 
 
-print(limit([1, 2, 3, 4, 5], None, 3))
+if __name__ == "__main__":
+    print(limit([1, 2, 3, 4, 5], None, 3))

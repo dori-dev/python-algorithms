@@ -16,4 +16,5 @@ def top_one(array: list) -> list:
     return result
 
 
-print(top_one([1, 1, 2, 2, 3, 4]))
+if __name__ == "__main__":
+    print(top_one([1, 1, 2, 2, 3, 4]))
