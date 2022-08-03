@@ -33,13 +33,13 @@ def get_index(array: list, element: Any) -> int:
 
 def get_insert_place(array: list, target: int) -> int:
     low = 0
-    hight = len(array) - 1
-    while low <= hight:
-        middle = (low + hight) // 2
+    high = len(array) - 1
+    while low <= high:
+        middle = (low + high) // 2
         if array[middle] < target:
             low = middle + 1
         else:
-            hight = middle - 1
+            high = middle - 1
     return low
 
 
