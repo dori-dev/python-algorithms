@@ -1,6 +1,7 @@
 """
 move_zeros([True, 3, 5, 0, 3, False, None, 0, 'dori', 0]) =>
     [True, 3, 5, 3, False, None, 'dori', 0, 0, 0]
+complexity: O(n)
 """
 
 
