@@ -9,7 +9,7 @@ from typing import Any
 
 def first_occurrence(array: list, target: Any) -> int:
     low, high = 0, len(array) - 1
-    while low < high:
+    while low <= high:
         middle = (low + high) // 2
         if array[middle] < target:
             low = middle + 1
@@ -23,3 +23,5 @@ def first_occurrence(array: list, target: Any) -> int:
 if __name__ == "__main__":
     print(first_occurrence([2, 2, 2, 3, 3, 4, 4, 5, 5, 5], 3) == 3)
     print(first_occurrence([2, 2, 2, 3, 3, 4, 4, 5, 5, 5], 2) == 0)
+    print(first_occurrence([2, 2, 2, 3, 3, 4, 4, 5, 5, 5], 4) == 5)
+    print(first_occurrence([2, 2, 2, 3, 3, 4, 4, 5, 5, 5], 5) == 7)
