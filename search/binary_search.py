@@ -1,20 +1,9 @@
 """
-Logarithm Time -> O(log n)
+binary_search([1, 2, 5, 8, 11, 14, 18, 23, 32, 48], 11) => 4
+complexity: O(log n)
 """
 
 from typing import Any
-
-
-numbers = [0, 4, 7, 10, 14, 23, 45, 47, 53]
-
-
-def get_element_index(list_: list, target: Any) -> int:
-    index = 0
-    for item in list_:
-        if item == target:
-            return index
-        index += 1
-    return None
 
 
 def binary_search(array: list, target: Any) -> int:
@@ -32,7 +21,4 @@ def binary_search(array: list, target: Any) -> int:
 
 
 if __name__ == "__main__":
-    # Bad Way -> Simple Search
-    print(get_element_index(numbers, 23))
-    # Good Way -> Binary Search
-    print(get_element_index(numbers, 23))
+    print(binary_search([1, 2, 5, 8, 11, 14, 18, 23, 32, 48], 11) == 4)
