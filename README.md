@@ -34,7 +34,7 @@ Some algorithms write with **python cleaned code** and calculate **Big O**!
 
 <br>
 
-## [ciphers](ciphers/):
+## [Ciphers](ciphers/):
 
 |    algorithm    |                    source                    |
 | :-------------: | :------------------------------------------: |
@@ -70,6 +70,6 @@ Some algorithms write with **python cleaned code** and calculate **Big O**!
 
 # Links
 
-Download Source Code: [Click Here](https://github.com/dori-dev/python-algorithms/archive/refs/heads/main.zip)
+Download Source Code: [Click Here](https://github.com/dori-dev/python-algorithms/archive/refs/heads/master.zip)
 
 My Github Account: [Click Here](https://github.com/dori-dev/)
